@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seniorstepsproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <application
+        android:name=".notificationchanels"
+        android:allowBackup="true"
+        android:icon="@drawable/application_app"
+        android:label="Booking Online"
+        android:roundIcon="@drawable/application_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".forgetpassword"></activity>
+        <activity android:name=".userinformation" />
+        <activity android:name=".itemtrips" />
+        <activity android:name=".mylasttrips" />
+        <activity android:name=".gettripticket" />
+        <activity android:name=".checktrip" />
+        <activity android:name=".searchtrip" />
+        <activity android:name=".tripinformation" />
+        <activity android:name=".getbusticket" />
+        <activity android:name=".checkbus" />
+        <activity android:name=".searchbus" />
+        <activity android:name=".businformation" />
+        <activity android:name=".gettrainticket" />
+        <activity android:name=".checktrain" />
+        <activity android:name=".searchtrain" />
+        <activity android:name=".traininformation" />
+        <activity android:name=".getplanceticket" />
+        <activity android:name=".checkplane" />
+        <activity android:name=".boardingpass" />
+        <activity android:name=".systeminformation" />
+        <activity android:name=".menu" />
+        <activity android:name=".signup" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

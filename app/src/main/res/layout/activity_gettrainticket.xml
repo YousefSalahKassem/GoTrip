@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gettrainticket">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11.3dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        app:cardCornerRadius="5dp"
+        android:outlineSpotShadowColor="#11e1e2e4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:background="@drawable/traini">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_marginTop="-20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/showfrom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="22.3sp"
+                            android:layout_marginBottom="0dp"
+                            android:includeFontPadding="false"
+                            android:textColor="#ffffff"
+                            android:text="NYC"/>
+                        <TextView
+                            android:id="@+id/showtimeto"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="11.3sp"
+                            android:textColor="#ffffff"
+                            android:text="12:10"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+android:layout_marginTop="-20dp"
+                        android:layout_width="120dp"
+                        android:layout_height="47dp"
+                        android:layout_gravity="center"
+
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/showduration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="13h 50m "
+                            android:textColor="#ffffff"
+                            android:textSize="11.7sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="-20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/showto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="22.3sp"
+                            android:layout_marginBottom="0dp"
+                            android:includeFontPadding="false"
+                            android:textColor="#ffffff"
+                            android:text="BLR"/>
+
+                        <TextView
+                            android:id="@+id/showt"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:text="02:00"
+                            android:textColor="#ffffff"
+                            android:textSize="11.3sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/showairname"
+                android:layout_width="322dp"
+                android:layout_height="17.3dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="egyptair"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.7dp"
+                android:layout_marginTop="8.3dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="15dp"
+                android:background="#efefef"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.7dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1.2"
+                    android:paddingLeft="16dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="11.7sp"
+                        android:textColor="#c5c5c5"
+                        android:text="Passenger"/>
+                    <TextView
+                        android:id="@+id/showname"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13.3sp"
+                        android:textColor="#4b4949"
+                        android:text="26 Sep 2018"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="3dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="11.7sp"
+                        android:textColor="#c5c5c5"
+                        android:text="Class"/>
+                    <TextView
+                        android:id="@+id/showclass"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13.3sp"
+                        android:textColor="#4b4949"
+                        android:text="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="1dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="11.7sp"
+                        android:textColor="#c5c5c5"
+                        android:text="Price"/>
+                    <TextView
+                        android:id="@+id/showprice"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13.3sp"
+                        android:textColor="#4b4949"
+                        android:text="20"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.7dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical"
+                    android:paddingLeft="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Payment"
+                        android:textColor="#c5c5c5"
+                        android:textSize="11.7sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cash on Delivery"
+                        android:textColor="#4b4949"
+                        android:textSize="13.3sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ID Number"
+                        android:textColor="#c5c5c5"
+                        android:textSize="11.7sp" />
+
+                    <TextView
+                        android:id="@+id/showpassport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:textColor="#4b4949"
+                        android:textSize="13.3sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="bottom"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="11.7sp"
+                        android:textColor="#c5c5c5"
+                        android:gravity="center_horizontal"
+                        android:text="Phone Number"
+                        />
+                    <TextView
+                        android:id="@+id/showphone"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13.3sp"
+                        android:textColor="#4b4949"
+                        android:gravity="center_horizontal"
+                        android:text="Mark Jon"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="11.7sp"
+                        android:textColor="#c5c5c5"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center_horizontal"
+                        android:text="Date"/>
+                    <TextView
+                        android:id="@+id/showdate"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13.3sp"
+                        android:textColor="#4b4949"
+                        android:gravity="center_horizontal"
+                        android:text="Business"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:paddingLeft="1dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Kids"
+                        android:textColor="#c5c5c5"
+                        android:textSize="11.7sp" />
+                    <TextView
+                        android:id="@+id/showkids"
+
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13A, 14A"
+                        android:textColor="#4b4949"
+                        android:textSize="13.3sp" />
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="0.4"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="17dp"
+                    android:paddingLeft="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/qrpurple"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

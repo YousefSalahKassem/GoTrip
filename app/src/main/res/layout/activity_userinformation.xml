@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userinformation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="16.3dp"
+            android:layout_height="21.7dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.3dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name"
+                android:textColor="#c5c5c5"
+                android:textSize="11.7sp" />
+            <EditText
+                android:id="@+id/ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:textColor="#4b4949"
+                android:textStyle="bold"
+                android:hint="First Name"
+                android:ems="10"
+                android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="16.3dp"
+            android:layout_height="21.7dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.3dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name"
+                android:textSize="11.7sp"
+                android:textColor="#c5c5c5"/>
+            <EditText
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:textColor="#4b4949"
+                android:textStyle="bold"
+                android:hint="Last Name"
+                android:ems="10"
+                android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="16.3dp"
+            android:layout_height="21.7dp"
+            android:layout_gravity="center"
+            android:src="@drawable/phoneicon"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.3dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textSize="11.7sp"
+                android:textColor="#c5c5c5"/>
+            <EditText
+                android:id="@+id/pp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:textColor="#4b4949"
+                android:textStyle="bold"
+                android:hint="Phone Number"
+                android:digits="0123456789"
+                android:ems="10"
+                android:maxLines="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="210dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="16.3dp"
+            android:layout_height="21.7dp"
+            android:layout_gravity="center"
+            android:src="@drawable/homeicon"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.3dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="11.7sp"
+                android:textColor="#c5c5c5"/>
+            <EditText
+                android:id="@+id/aa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:textColor="#4b4949"
+                android:textStyle="bold"
+                android:hint="Location"
+                android:ems="10"
+                android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="280dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="16.3dp"
+            android:layout_height="21.7dp"
+            android:layout_gravity="center"
+            android:src="@drawable/passport"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.3dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passport"
+                android:textSize="11.7sp"
+                android:textColor="#c5c5c5"/>
+            <EditText
+                android:id="@+id/ps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:textColor="#4b4949"
+                android:textStyle="bold"
+                android:hint="Passport ID"
+                android:digits="0123456789"
+                android:ems="10"
+                android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+android:layout_marginLeft="70dp"
+        android:layout_marginTop="350dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ss"
+            android:background="@drawable/blue_roundshape"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:text="Save"/>
+
+    </LinearLayout>
+</RelativeLayout>
